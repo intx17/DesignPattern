@@ -6,10 +6,10 @@ namespace Core.Models
 {
     public class MyStudentListIterator : IEnumerator<Student>
     {
-        private readonly Student[] _students;
+        private readonly MyStudentList _students;
         private int _index = -1;
 
-        public MyStudentListIterator(Student[] students)
+        public MyStudentListIterator(MyStudentList students)
         {
             _students = students;
         }
@@ -20,7 +20,7 @@ namespace Core.Models
             {
                 try
                 {
-                    return _students[_index];
+                    return _students.GetStudentAt(_index);
                 }
                 catch
                 {
@@ -44,7 +44,7 @@ namespace Core.Models
         public bool MoveNext()
         {
             _index++;
-            return _index < _students.Length;
+            return _index < _students.LastNum;
         }
 
         public void Reset()

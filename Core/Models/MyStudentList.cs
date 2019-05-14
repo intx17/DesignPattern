@@ -3,14 +3,11 @@ using System.Collections;
 
 namespace Core.Models
 {
-    public class MyStudentList : IEnumerable
+    public class MyStudentList : StudentList, IEnumerable
     {
-        private Student[] _students;
+        public MyStudentList() { }
 
-        public MyStudentList(Student[] students)
-        {
-            _students = students;
-        }
+        public MyStudentList(int studentCount) : base(studentCount) { }
 
         IEnumerator IEnumerable.GetEnumerator()
         {
@@ -19,7 +16,7 @@ namespace Core.Models
 
         public MyStudentListIterator GetEnumerator()
         {
-            return new MyStudentListIterator(_students);
+            return new MyStudentListIterator(this);
         }
     }
 }
