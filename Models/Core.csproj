@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <BaseDirectory>..\Core</BaseDirectory>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,5 +13,14 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Core\Enums\Gender.cs" />
+    <Compile Include="..\Core\Extensions\LogExtensions.cs" />
+    <Compile Include="..\Core\Models\MyStudentList.cs" />
+    <Compile Include="..\Core\Models\MyStudentListIterator.cs" />
+    <Compile Include="..\Core\Models\MyTeacher.cs" />
+    <Compile Include="..\Core\Models\Student.cs" />
+    <Compile Include="..\Core\Models\Teacher.cs" />
   </ItemGroup>
 </Project>
