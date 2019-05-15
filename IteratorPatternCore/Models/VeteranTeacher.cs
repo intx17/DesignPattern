@@ -1,8 +1,7 @@
-﻿using System;
-using Core.Enums;
+﻿using IteratorPatternCore.Enums;
 using Core.Extensions;
 
-namespace Core.Models
+namespace IteratorPatternCore.Models
 {
     public class VeteranTeacher : Teacher
     {

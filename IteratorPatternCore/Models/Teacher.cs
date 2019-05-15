@@ -1,6 +1,4 @@
-﻿using System.Collections;
-
-namespace Core.Models
+﻿namespace IteratorPatternCore.Models
 {
     public abstract class Teacher
     {

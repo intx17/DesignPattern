@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections;
-using System.Linq;
-using Core.Enums;
+﻿using IteratorPatternCore.Enums;
 using Core.Extensions;
 
-namespace Core.Models
+namespace IteratorPatternCore.Models
 {
     public class MyTeacher : Teacher
     {

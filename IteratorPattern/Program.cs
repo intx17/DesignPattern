@@ -1,5 +1,5 @@
 ﻿using System;
-using Core.Models;
+using IteratorPatternCore.Models;
 
 namespace IteratorPattern
 {

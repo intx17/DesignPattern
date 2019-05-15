@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-namespace Core.Models
+namespace IteratorPatternCore.Models
 {
     public class MyStudentListIterator : IEnumerator<Student>
     {

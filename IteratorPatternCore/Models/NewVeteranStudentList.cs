@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 
-namespace Core.Models
+namespace IteratorPatternCore.Models
 {
     public class NewVeteranStudentList : NewStudentList, IEnumerable
     {

@@ -1,7 +1,6 @@
-﻿using System;
-using Core.Enums;
+﻿using IteratorPatternCore.Enums;
 
-namespace Core.Models
+namespace IteratorPatternCore.Models
 {
     public class Student
     {

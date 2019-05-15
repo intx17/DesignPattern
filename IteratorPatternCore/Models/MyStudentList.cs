@@ -1,7 +1,6 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 
-namespace Core.Models
+namespace IteratorPatternCore.Models
 {
     public class MyStudentList : StudentList, IEnumerable
     {

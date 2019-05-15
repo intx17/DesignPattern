@@ -1,4 +1,4 @@
-﻿namespace Core.Models
+﻿namespace IteratorPatternCore.Models
 {
     public class StudentList
     {

@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Core.Enums
+namespace IteratorPatternCore.Enums
 {
     public enum Gender
     {
